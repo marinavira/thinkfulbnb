@@ -2,6 +2,7 @@
 
 body {
   font-family: "Lato", sans-serif;
+  display: grid;
 }
 
 h2 {
@@ -19,6 +20,8 @@ h3 {
 p {
   line-height: 1.5em;
   margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 section {
@@ -58,6 +61,7 @@ main img {
 
 .item-double {
   flex: 2;
+  margin: 10px;
 }
 
 /* -------  Navigation ------- */
