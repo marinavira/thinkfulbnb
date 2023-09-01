@@ -12,7 +12,7 @@ h2 {
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -26,7 +26,7 @@ section {
 }
 
 section.alternate-background {
-  background-color: #6b9080;
+  background-color: #00a669;
   color: #fff;
 }
 
@@ -63,14 +63,14 @@ main img {
 /* -------  Navigation ------- */
 
 header {
-  background-color: #a4c3b2;
+  background-color: #ff385c;
   padding: 20px 20px 0 20px;
   text-align: center;
 }
 
 .logo {
   display: flex;
-  font-family: "rockwell";
+  font-family: "Pangolin", cursive;
   font-size: 72px;
   color: #fff;
   justify-content: center
@@ -102,7 +102,7 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 2px solid #a4c3b2;
+  border: 2px solid #ff385c;
   padding: 10px;
 }
 
@@ -117,9 +117,9 @@ form button:hover{
 }
 
 form button {
-  background-color: #a4c3b2;
+  background-color: #ff385c;
   border: none;
-  color: #f6fff8;
+  color: ff;
   font-size: 24px;
   padding: 15px;
   width: 100%;
@@ -144,7 +144,7 @@ footer p {
 /* -------  Media Query ------- */
 
 
-@media all and (min-width: 786px){
+@media all and (min-width: 768px){
   header{
     display:flex;
     flex-direction:row;
@@ -181,6 +181,7 @@ footer p {
 
   form label{
     padding-bottom: 15px;
+    font-weight:bold;
   }
 
   .form-input{
@@ -199,6 +200,11 @@ footer p {
     display:flex;
     justify-content:center;
     flex-direction:row;
+  }
+
+  .item button, .item-input, .item-label, .item-select{
+    display:flex;
+    width:100%;
   }
 
   .item{
