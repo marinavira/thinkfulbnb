@@ -2,10 +2,11 @@
 
 body {
   font-family: "Lato", sans-serif;
+  display: grid;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 400;
   margin: 0 10px 10px 10px;
   text-align: center;
@@ -19,6 +20,8 @@ h3 {
 p {
   line-height: 1.5em;
   margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 section {
@@ -58,6 +61,7 @@ main img {
 
 .item-double {
   flex: 2;
+  margin: 10px;
 }
 
 /* -------  Navigation ------- */
@@ -119,7 +123,7 @@ form button:hover{
 form button {
   background-color: #ff385c;
   border: none;
-  color: ff;
+  color: #fff;
   font-size: 24px;
   padding: 15px;
   width: 100%;
@@ -132,7 +136,7 @@ form button {
 /* -------  Footer ------- */
 
 footer {
-  background-color: #a4c3b2;
+  background-color: #ff385c;
 }
 
 footer p {
@@ -169,7 +173,6 @@ footer p {
     align-items: center;
     display:flex;
     flex-direction:row;
-    flex-wrap: wrap;
     justify-content: center;
     padding: 10px
   }
@@ -185,12 +188,18 @@ footer p {
   }
 
   .form-input{
+    flex:1
     padding-right: 15px;
     justify-content: center;
   }
 
+form .item label {
+  flex: 0 0 auto
+}
+
   button{
     justify-content: center;
+    flex: 0 0 auto
   }
 
 
@@ -221,6 +230,3 @@ footer p {
   padding-left: 10px;
   padding-right:10px;
  }
-
-
-}
